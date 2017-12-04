@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9938504B1FD3FEBD007FF5FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938504A1FD3FEBD007FF5FB /* AppDelegate.swift */; };
-		9938504D1FD3FEBD007FF5FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938504C1FD3FEBD007FF5FB /* ViewController.swift */; };
+		9938504D1FD3FEBD007FF5FB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938504C1FD3FEBD007FF5FB /* HomeController.swift */; };
 		993850501FD3FEBD007FF5FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9938504E1FD3FEBD007FF5FB /* Main.storyboard */; };
 		993850531FD3FEBD007FF5FB /* youtube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 993850511FD3FEBD007FF5FB /* youtube.xcdatamodeld */; };
 		993850551FD3FEBD007FF5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993850541FD3FEBD007FF5FB /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		993850471FD3FEBD007FF5FB /* youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9938504A1FD3FEBD007FF5FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9938504C1FD3FEBD007FF5FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9938504C1FD3FEBD007FF5FB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		9938504F1FD3FEBD007FF5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		993850521FD3FEBD007FF5FB /* youtube.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = youtube.xcdatamodel; sourceTree = "<group>"; };
 		993850541FD3FEBD007FF5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				9938504A1FD3FEBD007FF5FB /* AppDelegate.swift */,
-				9938504C1FD3FEBD007FF5FB /* ViewController.swift */,
+				9938504C1FD3FEBD007FF5FB /* HomeController.swift */,
 				9938504E1FD3FEBD007FF5FB /* Main.storyboard */,
 				993850541FD3FEBD007FF5FB /* Assets.xcassets */,
 				993850561FD3FEBD007FF5FB /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				993850531FD3FEBD007FF5FB /* youtube.xcdatamodeld in Sources */,
-				9938504D1FD3FEBD007FF5FB /* ViewController.swift in Sources */,
+				9938504D1FD3FEBD007FF5FB /* HomeController.swift in Sources */,
 				9938504B1FD3FEBD007FF5FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L59CXB94W;
 				INFOPLIST_FILE = youtube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cliffc.youtube;
@@ -293,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L59CXB94W;
 				INFOPLIST_FILE = youtube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cliffc.youtube;
