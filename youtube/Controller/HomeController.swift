@@ -50,7 +50,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
     
 }
 
-}
+
 
 
 
