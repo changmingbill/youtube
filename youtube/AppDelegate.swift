@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -20,6 +22,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         let layout = UICollectionViewFlowLayout()
         window?.rootViewController = UINavigationController(rootViewController: HomeController(collectionViewLayout: layout))
+        UINavigationBar.appearance().barTintColor = UIColor(r:230,g:32,b:31)
+        application.statusBarStyle = .lightContent
+        let statusBarBackgroundView = UIView()
+        statusBarBackgroundView.backgroundColor = UIColor.rgb(red: 194, green: 31, blue: 31)
+        window?.addSubview(statusBarBackgroundView)
+        window?.addConstrainsWithFormat(format: "H:|[v0]|", views: statusBarBackgroundView)
+        window?.addConstrainsWithFormat(format: "V:|[v0(20)]|", views: statusBarBackgroundView)
         return true
     }
 
