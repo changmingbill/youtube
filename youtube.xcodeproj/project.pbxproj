@@ -13,6 +13,7 @@
 		993850531FD3FEBD007FF5FB /* youtube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 993850511FD3FEBD007FF5FB /* youtube.xcdatamodeld */; };
 		993850551FD3FEBD007FF5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993850541FD3FEBD007FF5FB /* Assets.xcassets */; };
 		993850581FD3FEBD007FF5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993850561FD3FEBD007FF5FB /* LaunchScreen.storyboard */; };
+		9943EED11FE1716500F34DE9 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943EED01FE1716500F34DE9 /* MenuBar.swift */; };
 		996C7F501FE02165003B3DE0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C7F4F1FE02165003B3DE0 /* Extensions.swift */; };
 		996C7F531FE02212003B3DE0 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C7F521FE02212003B3DE0 /* VideoCell.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		993850541FD3FEBD007FF5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993850571FD3FEBD007FF5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993850591FD3FEBD007FF5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9943EED01FE1716500F34DE9 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		996C7F4F1FE02165003B3DE0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		996C7F521FE02212003B3DE0 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				996C7F521FE02212003B3DE0 /* VideoCell.swift */,
+				9943EED01FE1716500F34DE9 /* MenuBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				996C7F531FE02212003B3DE0 /* VideoCell.swift in Sources */,
 				993850531FD3FEBD007FF5FB /* youtube.xcdatamodeld in Sources */,
+				9943EED11FE1716500F34DE9 /* MenuBar.swift in Sources */,
 				9938504D1FD3FEBD007FF5FB /* HomeController.swift in Sources */,
 				9938504B1FD3FEBD007FF5FB /* AppDelegate.swift in Sources */,
 				996C7F501FE02165003B3DE0 /* Extensions.swift in Sources */,
